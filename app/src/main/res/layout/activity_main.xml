@@ -13,16 +13,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="CALCULADORA IMC"
-        android:textSize="40dp"
-        android:layout_marginVertical="60dp"
+        android:text="@string/title_app"
+        android:textSize="40sp"
+        android:layout_marginVertical="50dp"
         android:textColor="#707070" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="match_parent"
         android:layout_marginHorizontal="50dp"
         android:layout_height="wrap_content"
-        android:text="Sua altura em metros"
+        android:text="@string/height_label"
         android:textColor="#707070" />
 
     <androidx.appcompat.widget.AppCompatEditText
@@ -35,7 +35,7 @@
         android:paddingVertical="12dp"
         android:inputType="numberDecimal"
         android:background="@drawable/edit_bg"
-        android:hint="1.70"
+        android:hint="@string/height_label_hint"
         android:textColorHint="#66707070"/>
 
     <androidx.appcompat.widget.AppCompatTextView
@@ -43,7 +43,7 @@
         android:layout_marginHorizontal="50dp"
         android:layout_marginTop="25dp"
         android:layout_height="wrap_content"
-        android:text="Seu peso em KG"
+        android:text="@string/weight_label"
         android:textColor="#707070"/>
 
     <androidx.appcompat.widget.AppCompatEditText
@@ -56,7 +56,7 @@
         android:paddingVertical="12dp"
         android:inputType="numberDecimal"
         android:background="@drawable/edit_bg"
-        android:hint="80"
+        android:hint="@string/weight_label_hint"
         android:textColorHint="#66707070"/>
 
     <androidx.appcompat.widget.AppCompatButton
@@ -64,7 +64,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="50dp"
-        android:text="Calcular"
+        android:text="@string/btnCalcular_textValue"
         android:textSize="20sp"
         android:background="@drawable/button_bg"
         android:textColor="#fafafa"/>
@@ -100,7 +100,7 @@
         android:textSize="34sp"
         android:textColor="@color/white"
         android:layout_marginTop="80dp"
-        android:text="Você Sabia ?"/>
+        android:text="@string/tvDica_title"/>
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tvDica"
@@ -110,7 +110,7 @@
         android:layout_marginTop="20dp"
         android:textSize="16sp"
         android:textColor="@color/white"
-        android:text="Criado no século 19 pelo matemático Lambert Quételet, o Índice de Massa Corporal, conhecido pela sigla IMC, é um cálculo simples que permite medir se alguém está ou não com o peso ideal."
+        android:text="@string/tvDica_text"
         android:layout_marginHorizontal="30dp"
         app:autoSizeTextType="uniform"/>
 

@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">AppIMC</string>
+    <string name="app_name">IMC - Cuidados de Saúde</string>
+    <string name="title_app">CALCULADORA IMC</string>
+    <string name="height_label">Sua altura em metros</string>
+    <string name="height_label_hint">1.70</string>
+    <string name="weight_label">Seu peso em KG</string>
+    <string name="weight_label_hint">80</string>
+    <string name="btnCalcular_textValue">Calcular</string>
+    <string name="tvDica_title">Você Sabia ?</string>
+    <string name="tvDica_text">Criado no século 19 pelo matemático Lambert Quételet, o Índice de Massa Corporal, conhecido pela sigla IMC, é um cálculo simples que permite medir se alguém está ou não com o peso ideal.</string>
 </resources>
